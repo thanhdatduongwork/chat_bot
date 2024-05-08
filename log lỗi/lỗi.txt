@@ -1,0 +1,6 @@
+tính điểm xét tuyển như thế_nào
+cách tính điểm xét tuyển vào vku
+-> sai intent nên fill slot không được
+xem lại slot thpt vì rất dễ nhập nhằng với mấy slot khác bởi vì đa số các câu đều có thpt hoặc các từ khóa liên quan đến thpt
+data phần cách tính đang bị nhập nhằng với phần hỏi đáp điểm chuẩn thpt -> cần chuẩn hóa lại data
+một tín chỉ bao nhiêu tiền -> thêm data

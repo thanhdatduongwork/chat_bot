@@ -1,0 +1,314 @@
+{
+    "intents": [
+    {
+    "tag": "greeting",
+    "patterns": ["Xin chào", "Chào bạn", "Chào", "Hi", "Hello", "Hế nhô", "Xin chào bạn"],
+    "responses": ["Chào bạn, tôi có thể giúp gì cho bạn?", "Xin chào, bạn có cần tôi giúp gì không?", "Chào bạn, bạn cần tư vấn về công nghệ thông tin phải không?"],
+    "context": [""]
+    },
+    {
+    "tag": "tech_advice",
+    "patterns": ["Bạn có thể giới thiệu cho tôi về công nghệ thông tin không?","Ngành Công nghệ thông tin là gì", "Tôi muốn tìm hiểu về lĩnh vực công nghệ thông tin", "Bạn có thể cho tôi biết về những xu hướng công nghệ mới nhất không?", "Có nên học công nghệ thông tin không?","trường VKU có các phương thức tuyển sinh gì","phương pháp tuyển sinh của trường VKU là gì?","muốn học VKU thì làm sao"],
+    "responses": ["Công nghệ thông tin là lĩnh vực rất phát triển hiện nay, nó liên quan đến việc sử dụng máy tính và các thiết bị điện tử để xử lý thông tin và tạo ra các sản phẩm công nghệ. Những xu hướng công nghệ mới nhất bao gồm trí tuệ nhân tạo, đám mây, blockchain và nhiều hơn nữa. Về việc học công nghệ thông tin, nếu bạn đam mê và có tài năng về lĩnh vực này, tôi nghĩ đó là một lựa chọn tuyệt vời."],
+    "context": [""]
+    },
+    {
+    "tag": "thanks",
+    "patterns": ["Cảm ơn", "Cảm ơn bạn", "Tks", "Tks bạn", "Tạm biệt", "Hẹn gặp lại", "Tạm biệt bạn"],
+    "responses": ["Không có gì, tôi luôn sẵn sàng giúp bạn!", "Rất vui được giúp bạn", "Chúc bạn một ngày tốt lành!"],
+    "context": [""]
+    },
+    {
+    "tag": "tuyensinh",
+    "patterns": ["VKU có các phương thức tuyển sinh gì?", "Các phương thức tuyển sinh thế nào", "làm sao để làm sinh viên của trường VKU??", "muốn học trường VKU thì xét tuyển thế nào?"],
+    "responses": [
+                    "Phương thức 1: Xét tuyển thẳng theo Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo.<br>Phương thức 2: Xét tuyển thẳng theo Đề án của Trường.<br>Phương thức 3: Xét kết quả thi đánh giá năng lực của Đại học Quốc gia Thành phố Hồ Chí Minh.<br>Phương thức 4: Xét kết quả học tập THPT (xét theo học bạ), các tổ hợp A00, A01, D01, D07.<br>Phương thức 5: Xét điểm thi tốt nghiệp trung học phổ thông (THPT) năm 2023, các tổ hợp gồm A00, A01, D01, D90."
+                ],
+    "context": [""]
+    },
+          {
+          "tag": "cntt",
+          "patterns": [
+            "Bạn biết về CNTT không?",
+            "CNTT là gì?",
+            "Học CNTT có khó không?",
+            "CNTT có tương lai không?",
+            "CNTT có nên học không?"
+          ],
+          "responses": [
+            "CNTT là viết tắt của 'Công nghệ thông tin', là ngành nghề đang phát triển mạnh mẽ hiện nay. Học CNTT không khó, tuy nhiên để thành công trong ngành này, bạn cần có kiến thức, kỹ năng và kinh nghiệm thực tế. Về tương lai, CNTT là một trong những ngành có nhu cầu lớn nhất hiện nay, với rất nhiều cơ hội việc làm trong tương lai. Vì vậy, nếu bạn có đam mê và năng khiếu về CNTT, học ngành này sẽ là một lựa chọn tốt cho bạn!"
+          ],
+            "context": [""]
+        },
+      {
+                "tag": "computer_science",
+                "patterns": [
+                    "Có thể giải thích cho tôi về công nghệ blockchain không?",
+                  " blockchain là gì"
+                ],
+                "responses": [
+                    "Blockchain là một hệ thống lưu trữ thông tin phân tán, bảo mật và không thể sửa đổi. Điều này đảm bảo tính toàn vẹn dữ liệu và ngăn chặn gian lận."
+                ],
+         "context": [""]
+            },
+       {
+                "tag": "computer_science1",
+                "patterns": [
+                    "Tôi muốn tìm hiểu về lập trình Python",
+                  "python là gi"
+                ],
+                "responses": [
+                    "Python là một ngôn ngữ lập trình phổ biến và dễ học. Nó được sử dụng trong nhiều lĩnh vực, từ phát triển web đến khoa học dữ liệu và trí tuệ nhân tạo."
+                ],
+         "context": [""]
+            },
+      {
+                "tag": "computer_science3",
+                "patterns": [
+                    "Lập trình web là gì?",
+                  "lập trình web"
+                ],
+                "responses": [
+                    " Lập trình web là quá trình tạo ra các ứng dụng web bằng các ngôn ngữ lập trình như HTML, CSS và JavaScript."
+                ],
+         "context": [""]
+            },
+      {
+        "tag":"hoidapchuyennganh",
+        "patterns": ["lập trình java là gì " ],
+        "responses":["Lập trình Java là quá trình viết mã và phát triển ứng dụng bằng ngôn ngữ lập trình Java. Java là một ngôn ngữ lập trình phổ biến và mạnh mẽ được phát triển bởi Sun Microsystems (nay là Oracle Corporation). Nó được thiết kế để có tính đơn giản, dễ đọc và dễ viết, đồng thời cung cấp khả năng chạy trên nhiều nền tảng khác nhau." ],
+        "context": [""]
+      },
+      {
+        "tag":"hoidapcn",
+        "patterns": ["Học java là học gì"],
+        "responses":["Học Java là quá trình học cách lập trình và phát triển ứng dụng bằng ngôn ngữ lập trình Java. Khi bạn học Java, bạn sẽ làm quen với các khái niệm và cú pháp của ngôn ngữ này, hiểu cách xây dựng và chạy các chương trình Java, và tìm hiểu về các khía cạnh khác nhau của phát triển ứng dụng."],
+        "context": [""]
+      },
+      {
+                "tag": "computer_science4",
+                "patterns": [
+                    "Hãy cho tôi biết thêm về trí tuệ nhân tạo",
+                  " Trí tuệ nhân tạo"
+                ],
+                "responses": [
+                  " Trí tuệ nhân tạo là lĩnh vực nghiên cứu về cách thiết kế máy tính hoặc hệ thống thông minh để thực hiện các công việc cần đến khả năng suy nghĩ, giải quyết vấn đề và học hỏi tương tự như con người."
+                ],
+         "context": [""]
+            },
+      {
+    "tag": "tuyensinh1",
+    "patterns": ["Các đối tượng được ưu tiên xét tuyển, tuyển thẳng",
+      "Em thi có giải quốc gia thì có được tuyển thẳng không?",
+                "trường VKU có chương trình tuyển thẳng không",
+                "Ai sẽ được tuyển thẳng vào VKU?",
+                "đối tượng nào sẽ được tuyển thẳng vào VKU",
+                "Điều kiện để xét tuyển thẳng và ưu tiên xét tuyển của trường là gì",
+                "Học sinh nào sẽ được ưu tiên xét tuyển, tuyển thẳng","Điều kiện để xét tuyển thẳng và ưu tiên của VKU là gì",
+                "các đối tượng nào sẽ được ưu tiên xét tuyển, tuyển thẳng","Em có giải quốc gia thì có được tuyển thẳng không"],
+    "responses": ["Nhóm 1: Đoạt giải khuyến khích trở lên trong kỳ thi học sinh giỏi (HSG) Quốc gia; Đoạt giải khuyến khích trở lên tại các kỳ thi tay nghề quốc tế; Đoạt giải tư trở lên tại Cuộc thi Khoa học, kỹ thuật quốc gia.<br> Nhóm 2:Đoạt giải (Nhất, Nhì, Ba, Khuyến khích) kỳ thi học sinh giỏi hoặc Cuộc thi khoa học kỹ thuật cấp tỉnh/thành phố trực thuộc trung ương; Đoạt huy chương vàng, bạc, đồng trong Kỳ thi Olympic cấp tỉnh, thành phố trực thuộc Trung ương trở lên.<br> Nhóm 3: Có chứng chỉ quốc tế SAT (≥ 1200), ACT (≥ 26) hoặc kết quả học dự bị đại học theo hình thức A-Level (PUM range ≥ 80, Toán C).<br> Nhóm 4: Tham dự cuộc thi Đường lên đỉnh Olympia vòng thi tuần trở lên do Đài truyền hình Việt Nam tổ chức.<br>Nhóm 5: Học sinh THPT chuyên các môn Toán, Vật Lý, *Hóa học, Tin học có điểm trung bình môn chuyên (lớp 10 và lớp 11) và trung bình các môn thuộc tổ hợp xét tuyển (lớp 10 và lớp 11) từ 8,00 trở lên.<br>Nhóm 6: Đoạt giải (Nhất, Nhì, Ba) trong Hội thi Olympic -Tin học do Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn phối hợp tổ chức (chỉ tuyển cho các ngành thuộc lĩnh vực máy tính và công nghệ thông tin)<br> Nhóm 7: Đạt học lực giỏi (hai năm liên tục) trong thời gian học THPT.<br> Nhóm 8: Có chứng chỉ tiếng Anh quốc tế IELTS từ 5,0 > trở lên (hoặc TOEFL iBT từ 45 điểm trở lên, TOEIC từ 600 điểm trở lên); Đoạt giải (Nhất, Nhì, Ba) trong Cuộc thi thể thao, văn nghệ cấp linh/thành phố trực thuộc trung ương trở lên. Điểm học tập THPT mỗi môn theo một trong các tổ hợp xét tuyển (A00, A01, D01, D07) phải lớn hơn hoặc bằng 6,0."
+     ,"Đối tượng được ưu tiên xét tuyển, tuyển thẳng: Đoạt giải khuyến khích trở lên trong kỳ thi học sinh giỏi (HSG) Quốc gia; Đoạt giải khuyến khích trở lên tại các kỳ thi tay nghề quốc tế; Đoạt giải tư trở lên tại Cuộc thi Khoa học, kỹ thuật quốc gia." ],
+    "context": [""]
+    },
+        {
+    "tag": "tuyensinhhb",
+    "patterns": [" Đối với thí sinh trúng tuyển theo phương thức xét học bạ, theo kết quả kỳ thi Đánh giá năng lực của Đại học Quốc gia Thành phố Hồ Chí Minh, theo điểm thi tốt nghiệp THPT quốc gia năm 2023"
+                ],
+    "responses": ["Thí sinh trúng tuyển theo phương thức xét học bạ hoặc xét điểm thi tốt nghiệp THPT quốc gia năm 2023 với số điểm trúng tuyển từ 26 điểm trở lên, thí sinh trúng tuyển theo phương thức xét kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia Thành phố Hồ Chí Minh với điểm trúng tuyển từ 1.000 trở lên (thang điểm 1.200) được xét hỗ trợ tài chính tương đương 50% học phí của 02 học kỳ đầu của khóa học.\n\nThí sinh trúng tuyển theo phương thức xét học bạ và điểm thi tốt nghiệp THPT quốc gia năm 2023 có điểm xét tuyển từ 27 trở lên: miễn phí chỗ ở 01 học kỳ đầu trong ký túc xá của Trường."],
+    "context": [""]
+    },
+        {
+    "tag": "cshotrohp",
+    "patterns": ["Xin lỗi, tôi không hiểu", "Tôi không hiểu", "Bạn có thể giải thích thêm không?", "Có thể nói rõ hơn không?"],
+    "responses": ["Xin lỗi, tôi không hiểu ý bạn. Bạn có thể giải thích rõ hơn không?", "Bạn có thể nói rõ hơn không? Tôi không hiểu ý của bạn lắm"],
+    "context": [""]
+    },
+      {
+    "tag": "diemchuanQTKD",
+    "patterns": ["Điểm chuẩn ngành quản trị kinh doanh", "Điểm chuẩn ngành QTKD", "diem chuan nganh quan tri kinh doanh", "diem chuan nganh qtkd?"],
+    "responses": ["Điểm chuẩn ngành quản trị kinh doanh năm 2022 tính theo điểm thi THPT là:<br> Quản trị kinh doanh: 24<br> Quản trị kinh doanh (Chuyên ngành Marketing kỹ thuật số): 24<br> Quản trị kinh doanh(chuyên ngành Quản trị tài chính số): 22<br> Quản trị kinh doanh (Quản trị Logistics và chuỗi cung ứng số): 25<br> Quản trị kinh doanh (Quản trị dịch vụ du lịch và lữ hành số): 23<br>Quản trị kinh doanh (Quản trị dự án Công nghệ thông tin): 20.05<br>"],
+    "context": [""]
+    },
+      {
+    "tag": "diemchuanCNKTMT",
+    "patterns": ["Điểm chuẩn ngành Công nghệ kỹ thuật máy tính", "Điểm chuẩn ngành CNKTMT", "diem chuan nganh cong nghe ki thuat may tinh", "diem chuan nganh cnktmt?"],
+    "responses": ["Điểm chuẩn ngành Công nghệ Kỹ Thuật Máy Tính Trường Đại học Công nghệ thông tin và truyền thông Việt – Hàn Đà Nẵng năm 2022 tính theo điểm thi THPT là:<br> Công nghệ kỹ thuật máy tính (kỹ sư): 23<br>Công nghệ kỹ thuật máy tính (cử nhân): 23"],
+    "context": [""]
+    },
+        {
+    "tag": "diemchuanCNTT",
+    "patterns": ["Điểm chuẩn ngành Công nghệ Nghệ Thông Tin", "Điểm chuẩn ngành CNTT", "diem chuan nganh cong nghe thong tin", "diem chuan nganh cntt"],
+    "responses": ["Điểm chuẩn ngành Công nghệ Nghệ Thông Tin Trường Đại học Công nghệ thông tin và truyền thông Việt – Hàn Đà Nẵng năm 2022  tính theo điểm thi THPT là:<br>Công nghệ thông tin (kỹ sư): 25<br>Công nghệ thông tin (cử nhân): 24<br>Công nghệ thông tin (Thiết kế Mỹ thuật số (kỹ sư)): 23<br>Công nghệ thông tin (Khoa học dữ liệu và Trí tuệ nhân tạo (kỹ sư)): 24<br>Công nghệ thông tin (cử nhân – Hợp tác doanh nghiệp): 24<br>Công nghệ thông tin (Mạng và An toàn thông tin (kỹ sư)): 23"],
+    "context": [""]
+    },
+      {
+    "tag": "hotrohocphi",
+    "patterns": ["Chính sách hỗ trợ học phí",
+      "Trường có hỗ trợ học phí không "],
+    "responses": ["Đối với thí sinh xét tuyển thẳng <br>Nhóm 1: Đoạt giải khuyến khích trở lên trong kỳ thi học sinh giỏi (HSG) Quốc gia; Đoạt giải khuyến khích trở lên tại các kỳ thi tay nghề quốc tế; Đoạt giải tư trở lên tại Cuộc thi Khoa học, kỹ thuật quốc gia.Miễn 100% học phí và hỗ trợ kí túc xá trong 2 học kì đầu<br> Nhóm 2:Đoạt giải (Nhất, Nhì, Ba, Khuyến khích) kỳ thi học sinh giỏi hoặc Cuộc thi khoa học kỹ thuật cấp tỉnh/thành phố trực thuộc trung ương; Đoạt huy chương vàng, bạc, đồng trong Kỳ thi Olympic cấp tỉnh, thành phố trực thuộc Trung ương trở lên.Miễn 50-100% học phí và hỗ trợ kí túc xá trong 2 học kì đầu<br> Nhóm 3: Có chứng chỉ quốc tế SAT (≥ 1200), ACT (≥ 26) hoặc kết quả học dự bị đại học theo hình thức A-Level (PUM range ≥ 80, Toán C).Miễn 100% học phí và hỗ trợ kí túc xá trong 2 học kì đầu.<br> Nhóm 4: Tham dự cuộc thi Đường lên đỉnh Olympia vòng thi tuần trở lên do Đài truyền hình Việt Nam tổ chức.Miễn 100% học phí và hỗ trợ kí túc xá trong 2 học kì đầu.<br>Nhóm 5: Học sinh THPT chuyên các môn Toán, Vật Lý, *Hóa học, Tin học có điểm trung bình môn chuyên (lớp 10 và lớp 11) và trung bình các môn thuộc tổ hợp xét tuyển (lớp 10 và lớp 11) từ 8,00 trở lên.Miễn 75% học phí và hỗ trợ kí túc xá trong 2 học kì đầu<br>Nhóm 6: Đoạt giải (Nhất, Nhì, Ba) trong Hội thi Olympic -Tin học do Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn phối hợp tổ chức (chỉ tuyển cho các ngành thuộc lĩnh vực máy tính và công nghệ thông tin). Miễn 50% học phí và hỗ trợ kí túc xá trong 2 học kì đầu<br> Nhóm 7: Đạt học lực giỏi (hai năm liên tục) trong thời gian học THPT. Miễn 50% học phí và hỗ trợ kí túc xá trong 2 học kì đầu<br>"],
+    "context": [""]
+    },
+      {
+        "tag": "hocCNTTlagi",
+        "patterns": ["Học Công nghệ thông tin là học những gì?", "học công nghệ thông tin là học gì", "học cntt là học gì"],
+        "responses": ["Học Công nghệ thông tin bạn sẽ được học những kỹ năng cần thiết để chế tạo và sử dụng công nghệ (phần cứng, phần mềm và các công cụ bổ trợ khác).<br> Đi sâu vào chuyên ngành này, các bạn sẽ có cơ hội tiếp cận những kiến thức liên quan đến nghiên cứu phát triển, gia công hay ứng dụng hệ thống phần mềm;<br> kiến thức về thiết kế, xây dựng, vận hành và bảo trì phần cứng, phần mềm của hệ thống máy tính và các hệ thống thiết bị dựa trên máy tính. Nếu yêu công nghệ, thích ngôn ngữ lập trình, thích khám phá nhiều ứng dụng mới thì Công nghệ thông tin chính là lựa chọn phù hợp dành cho bạn."],
+        "context": [""]
+      },
+      {
+        "tag":"thongtintuyensinhCNTT",
+        "patterns": ["Thông tin tuyển sinh ngành Công nghệ thông tin ở VKU", "thông tin tuyển sinh CNTT ở VKU"],
+        "responses":["  Mã ngành: 7480201<br>     Trình độ đào tạo: Đại học<br> + Hình thức xét tuyển:  4 hình thức {xét điểm THPT 2021; xét học bạ; xét theo phương thức riêng của Trường; xét kết quả kỳ thi ĐGNL do ĐHĐN phối hợp với ĐHQG TP.HCM tổ chức} và xét tuyển thẳng theo quy định của Bộ Giáo dục & Đào tạo<br>     + Tổng khối lượng kiến thức toàn khóa: >=152 tín chỉ(TC) - chưa bao gồm các học phần Giáo dục thể chất (4TC), Tiếng Anh dự bị (5TC) và Giáo dục quốc phòng - an ninh (quy đổi 8TC) <br>  + Thời gian đào tạo: 4,5 năm chia làm 9 học kỳ: Kỹ sư Công nghệ thông tin"],
+        "context": [""]
+      },
+      {
+        "tag":"kitucxa",
+        "patterns": ["có được hỗ trợ kí túc xá không"," kí túc xá có xa trường không", "kí túc xá"],
+        "responses":["Hiện nay kí túc xá Trường Đại học Công nghệ thông tin và truyền thông Việt – Hàn nằm ngay trong khuôn viên trường(Khu K)<br> Kí túc xá Việt-Hàn chỉ cách Khu V của trường 0.5 km gồm 4 tòa nhà đủ chỗ ở cho toàn bộ sinh viên của trường và một số sinh viên trường khác"],
+        "context": [""]
+      },
+      {
+        "tag":"kienthuctoancaocap",
+        "patterns": ["Có cần kiến thức toán cao cấp để học ngành Công nghệ thông tin?","Toán cao cấp có cần cho ngành CNTT"],
+        "responses":["Kiến thức toán cao cấp là một yếu tố quan trọng trong việc học ngành Công nghệ thông tin, nhưng không phải là điều kiện bắt buộc đối với mọi trường và chương trình đào tạo. Mức độ yêu cầu về kiến thức toán sẽ khác nhau tùy theo trường đại học và khối ngành Công nghệ thông tin cụ thể."],
+        "context": [""]
+      },
+      {
+        "tag":"hoidapCNTT",
+        "patterns": ["Ngành Công nghệ thông tin có nhiều ngành con không? ?"],
+        "responses":["1.Khoa học máy tính: Tập trung vào nghiên cứu và phát triển các thuật toán, lý thuyết và ứng dụng của máy tính.\n<br> 2. Hệ thống thông tin: Tập trung vào thiết kế, phát triển và quản lý các hệ thống thông tin, bao gồm cả hệ thống mạng và hệ thống phân tán.\n<br>3.Mạng máy tính: Tập trung vào thiết kế, cài đặt và quản lý các mạng máy tính, bao gồm mạng LAN, mạng WAN và mạng không dây.\n<br> 4. Phân tích dữ liệu và khai phá dữ liệu: Tập trung vào khám phá và phân tích dữ liệu để tạo ra thông tin hữu ích từ các nguồn dữ liệu khác nhau.\n<br> 5. Trí tuệ nhân tạo: Tập trung vào nghiên cứu và phát triển các hệ thống và ứng dụng có khả năng học và tự động.\n <br>6.Trò chơi điện tử: Tập trung vào phát triển và thiết kế các trò chơi điện tử và nền tảng trò chơi.\n<br>7. An toàn thông tin: Tập trung vào bảo vệ thông tin và dữ liệu khỏi các mối đe dọa và tấn công mạng.\n<br> 8. Quản lý dự án công nghệ thông tin: Tập trung vào quản lý và điều phối các dự án công nghệ thông tin, bao gồm lập kế hoạch, triển khai và đánh giá dự án."],
+        "context": [""]
+      },
+      {
+        "tag":"nhasanxuat",
+        "patterns": ["ai đã sáng tạo ra bạn?","Bạn được ai sáng tạo"],
+        "responses":["Mình được phát triển bởi trường ĐH CNTT & TT Việt-Hàn và nhóm sinh viên Khoa khoa học máy tính"],
+        "context": [""]
+      },
+      {
+        "tag":"hoidapvieclam",
+        "patterns": [" Học xong CNTT có thể làm những nghề gì?","học CNTT xong ra trường làm gì","Học xong Công nghệ thông tin có thể làm những nghề gì"],
+        "responses":["Tùy theo từng chuyên ngành mà sẽ có hướng chuyên sâu và khả năng công tác khác nhau. Khi ra trường, sinh viên được cấp bằng kỹ sư CNTT hoặc cử nhân CNTT tùy theo thời gian đào tạo. Sinh viên sau khi tốt nghiệp có khả năng tham mưu tư vấn, thực hiện các công việc trong lĩnh vực chuyên ngành như lập trình, phân tích thiết kế hệ thống, lập trình hệ thống thống tin, lập dự án xây dựng các phần mềm ứng dụng, tham gia công tác tại các cơ quan trong và ngoài nước có liên quan đến lĩnh vực CNTT, các công ty phần mềm, mạng... các phòng chức năng trong các cơ quan, công ty, trung tâm phụ trách CNTT, hệ thống quản trị; tham gia giảng dạy và nghiên cứu tại các trường ĐH, CĐ, TCCN có đào tạo ngành hoặc chuyên ngành về CNTT."],
+        "context": [""]
+      },
+      {
+        "tag":"chitieuchung",
+        "patterns": ["chỉ tiêu tuyển sinh của trường mình là bao nhiêu"],
+        "responses":["Thông tin Tuyển sinh 2023 gồm 1500 chỉ tiêu trong đó có 14 ngành/ Chuyên ngành và 4 phương thức tuyển sinh"],
+        "context": [""]
+      },
+      {
+        "tag":"phuongthucts",
+        "patterns": ["các phương thức tuyển sinh trường mình là gì?","trường mình có bao nhiêu phương thức tuyển sinh"," các phương thức tuyển sinh của VKU","VKU có bao nhiêu phương thức tuyển sinh"],
+        "responses":["Có 4 phương thức tuyên sinh: <br> 1. Xét thẳng theo quy định của Bộ GD&ĐT. <br> 2. Xét tuyển học bạ <br>3. Xét tuyển thẳng theo đề án của trường<br> 4. Đăng kí xét kết quả thi ĐGNL do ĐHQG HCM tôt chức"],
+        "context": [""]
+      },
+      {
+        "tag":"cntthekisu",
+        "patterns": ["Chỉ tiêu ngành Công nghệ thông tin Trường VKU hệ kĩ sư là bao nhiêu?","Công nghệ thông tin - Kỹ sư tuyển bao nhiêu","CNTT hệ Kỹ sư trường mình tuyển bao nhiêu?"],
+        "responses":["Chỉ tiêu ngành Công nghệ thông tin TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN năm 2023 là :<br> 320 chỉ tiêu Với Văn bằng tốt nghiệp: Kỹ Sư"],
+        "context": [""]
+      },
+      {
+        "tag":"cntthecunhan",
+        "patterns": ["Chỉ tiêu ngành Công nghệ thông tin Trường VKU hệ cử nhân là bao nhiêu?","Công nghệ thông tin - Cử nhân tuyển bao nhiêu","CNTT hệ Cử nhân trường mình tuyển bao nhiêu?"],
+        "responses":["Chỉ tiêu ngành Công nghệ thông tin TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN năm 2023 là :<br> 240 chỉ tiêu Với Văn bằng tốt nghiệp: Cử nhân"],
+        "context": [""]
+      },
+      {
+        "tag":"cnttdacthu",
+        "patterns": ["Chỉ tiêu ngành Công nghệ thông tin đặc thù Trường VKU hệ cử nhân là bao nhiêu?","Chỉ tiêu ngành Công nghệ thông tin đặc thù Trường VKU"],
+        "responses":["Chỉ tiêu ngành Công nghệ thông tin đặc thù TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN năm 2023 là :<br> 120 chỉ tiêu Với Văn bằng tốt nghiệp: Cử nhân"],
+        "context": [""]
+      },
+      {
+        "tag":"ttnt",
+        "patterns": ["Ngành trí tuệ nhân tạo có chỉ tiêu là bao nhiêu","Chỉ tiêu ngành trí tuệ nhân tạo của VKU là bao nhiêu"],
+        "responses":["Chỉ tiêu ngành Trí Tuệ Nhân Tạo của TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN năm 2023 là:<br> 60 chỉ tiêu với Văn bằng tốt nghiệp Kỹ Sư "],
+        "context": [""]
+      },
+      {
+        "tag":"cnttcnmt",
+        "patterns": [" Chỉ tiêu Ngành Công nghệ thông tin-Chuyên ngành Thiết kế Mỹ thuật số là bao nhiêu?","chỉ tiêu Ngành CNTT- chuyên ngành Thiết kế Mỹ thuật số là bao nhiêu"],
+        "responses":["Chỉ tiêu ngành Công nghệ thông tin-Chuyên ngành Thiết kế Mỹ thuật số của TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN năm 2023 là:<br> 60 chỉ tiêu với Văn bằng tốt nghiệp Kỹ Sư"],
+        "context": [""]
+      },
+      {
+        "tag":"ctncnktmt",
+        "patterns": ["Ngành Công nghệ kỹ thuật máy tính-Chuyên ngành Mạng và An toàn thông tin"],
+        "responses":["Chỉ tiêu Ngành Công nghệ kỹ thuật máy tính của VKU là:<br> 60 chỉ tiêu với văn bằng tốt nghiệp kĩ sư"],
+        "context": [""]
+      },
+       {
+        "tag":"cnktmt",
+        "patterns": ["Chỉ tiêu Ngành Công nghệ kỹ thuật máy tính là bao nhiêu "],
+        "responses":["Chỉ tiêu Ngành Công nghệ kỹ thuật máy tính của VKU là : <br> đối với hệ Kỹ Sư: 60 chỉ tiêu.<br> Đối với hệ cử nhân: 60 chỉ tiêu. "],
+        "context": [""]
+      },
+      {
+        "tag":"ctqtkd",
+        "patterns": ["Chỉ tiêu Ngành Quản trị kinh doanh là bao nhiêu ","Chỉ tiêu Ngành QTKD là bao nhiêu"],
+        "responses":["Chỉ tiêu Ngành Quản trị kinh doanh của VKU là : <br>  120 chỉ tiêu với văn bằng tốt nghiệp cử nhận.<br>Quản trị kinh doanh - Chuyên ngành: Quản trị Logistics và chuỗi cung ứng số: 120 chỉ tiêu với văn bằng tốt nghiệp cử nhận. <br>Quản trị kinh doanh - Chuyên ngành: Quản trị dịch vụ du lịch và lữ hành số : 60 chỉ tiêu với văn bằng tốt nghiệp cử nhận<br> Quản trị kinh doanh - Chuyên ngành: Quản trị dự án Công nghệ thông tin: 40 ch tiêu với văn bằng tốt nghiệp cử nhận.<br> Quản trị kinh doanh - Chuyên ngành: Quản trị Tài chính số: 60 chỉ tiêu với văn bằng tốt nghiệp cử nhận.<br>Quản trị kinh doanh - Chuyên ngành Marketting kỹ thuật số: 120 Chỉ tiêu với văn bằng tốt nghiệp cử nhậnvới văn bằng tốt nghiệp cử nhận.  "],
+        "context": [""]
+      },
+      {
+        "tag":"yeucaucntt",
+        "patterns": ["Học ngành CNTT yêu cầu những gì?","Học ngành Công nghệ thông tin yêu cầu những gì?", " ngành CNTT yêu cầu gì?"],
+        "responses":["Để học tốt ngành CNTT bạn cần có những tố chất sau: Đam mê công nghệ, thông minh và có óc sáng tạo, tính chính xác trong công việc, ham học hỏi, trau dồi kiến thức; trình độ ngoại ngữ. Điều quan trọng để học tốt được ngành CNTT bạn cần có niềm đam mê và yêu thích với công nghệ. Và thêm nữa, nếu muốn học tốt ngành này bạn nên có vốn ngoại ngữ nhất định."],
+        "context": [""]
+      },
+      {
+        "tag":"mucluong",
+        "patterns": ["Mức lương nào cho sinh viên mới ra trường là phù hợp?"],
+        "responses":["- Hiện nay thị trường việc làm rất đa dạng, tương tự đó mức lương cũng vậy. Có thể thấy sự chênh lệch giữa mức lương của nhân viên tại các tập đoàn đa quốc gia và mức lương của nhân viên tại các công ty nhỏ hoặc công ty vừa bắt đầu start-up tại Việt Nam.<br>- Mức lương của sinh viên mới ra trường phụ thuộc vào lựa chọn (hình thức, quy mô doanh nghiệp) và năng lực cá nhân có thể đáp ứng phù hợp với lựa chọn của mình hay không"],
+        "context": [""]
+      },
+      {
+        "tag":"bangcap",
+        "patterns": ["Bằng cấp có quan trọng hay không?"],
+        "responses":["- Thật sự mà nói bằng cấp không quan trọng bằng thái độ và năng lực thật sự của một người. Ngoài bằng cấp đại học, còn những điều khác ảnh hưởng không kém đến công việc của bạn, đó chính là ngoại ngữ và kỹ năng mềm. Bên cạnh đó còn những kiến thức, kỹ năng tích lũy thêm trong quá trình làm việc.<br>- Nhưng điểm số và bằng cấp chính là minh chứng cho việc một sinh viên xem trọng việc học, xem trọng quá trình rèn luyện và tích lũy của mình, thái độ có trách nhiệm với việc học, là bước đầu tiên doanh nghiệp nhìn đánh giá sơ bộ về năng lực."],
+        "context": [""]
+      },
+        {
+        "tag":"sangtao",
+        "patterns": ["bạn được tạo ra để làm gì"],
+        "responses":["Mình được tạo ra để giải quyết một số thắc mắc trong quá trình tuyển sinh của TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN"],
+        "context": [""]
+      },
+      {
+        "tag":"",
+        "patterns": [""],
+        "responses":["Xin lỗi, tôi không hiểu câu hỏi của bạn", "Câu hỏi của bạn vượt quá phạm vi của tôi"],
+        "context": [""]
+      },
+      {
+        "tag":"tinhdiemhb",
+        "patterns": ["Tình điểm học bạ như thế nào","Học Bạ bao nhiêu điểm thì có thể vào trường"],
+        "responses":["Bạn có thể tự tính điểm tại đường link này: <br>http://tuyensinh.vku.udn.vn/cong-cu-tinh"],
+        "context": [""]
+      },
+       {
+        "tag":"tgxettuyenthangw",
+        "patterns": ["Thời gian nhận hồ sơ xét tuyển thẳng"],
+        "responses":["thời gian nhận hồ sơ và xết tuyển thẳng của VKu là từ ngày 15/04/2023 đến hết ngày 31/05/2023 "],
+        "context": [""]
+      },
+      {
+        "tag":"diachi",
+        "patterns": ["Trường mình năm ở đâu", "địa chỉ của trường là"],
+        "responses":["Địa chỉ của TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN là: 470 Trần Đại Nghĩa, Q. Ngũ Hành Sơn, Tp. Đà Nẵng"],
+        "context": [""]
+      },
+       {
+        "tag":"hocphi",
+        "patterns": ["Học phí của trường có cao không", "Học phí của trường VKU là bao nhiêu", "học phí trường mình là bao nhiêu"],
+        "responses":["Học Phí của Trường ưu đãi nhất hiện nay: Chỉ từ 5.500.000  đến 6.800.000  VNĐ/học kỳ"],
+        "context": [""]
+      },
+       {
+        "tag":"cacnganhcntt",
+        "patterns": ["có được hỗ trợ kí túc xá không"," kí túc xá có xa trường không", "kí túc xá"],
+        "responses":["Hiện nay kí túc xá Trường Đại học Công nghệ thông tin và truyền thông Việt – Hàn nằm ngay trong khuôn viên trường(Khu K)<br> Kí túc xá Việt-Hàn chỉ cách Khu V của trường 0.5 km gồm 4 tòa nhà đủ chỗ ở cho toàn bộ sinh viên của trường và một số sinh viên trường khác"],
+        "context": [""]
+      }
+    ]
+    }
